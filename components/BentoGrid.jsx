@@ -56,7 +56,7 @@ const Organizers = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4  border border-neutral-200 flex flex-col items-center justify-center"
       >
         <img
-          src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
+          src="https://i.postimg.cc/PPscLNyy/6dc6726cc05201dc02b7a3432e3f9df1.png"
           alt="avatar"
           height="100"
           width="100"
@@ -73,7 +73,7 @@ const Organizers = () => {
       {/* Host */}
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
         <img
-          src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
+          src="https://i.postimg.cc/yWStY0mW/38baa249456f3d5da256bf90b7a3cd7e.png"
           alt="avatar"
           height="100"
           width="100"
@@ -93,7 +93,7 @@ const Organizers = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <img
-          src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
+          src="https://i.postimg.cc/ctYb9Nxf/6a84034d3f98978d99116043a53c49cb.webp"
           alt="avatar"
           height="100"
           width="100"
