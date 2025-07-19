@@ -24,7 +24,7 @@ export default function Home() {
         <DarkVeil />
       </div>
       <div className="relative z-10 min-h-screen flex flex-col justify-between">
-        <main className="flex-1 flex flex-col justify-center items-center mt-4 mb-16 sm:mt-8 sm:mb-16 md:mt-4 md:mb-16">
+        <main className="flex-1 flex flex-col justify-center items-center mt-8 mb-16 sm:mt-8 sm:mb-16 md:mt-8 md:mb-16">
           <BentoGridComponent />
         </main>
         <Footer />
