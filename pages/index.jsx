@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Welcome to ` The UwU Café `</title>
+        <title>The UwU Café</title>
       </Head>
       <div className="fixed inset-0 w-screen h-screen m-0 p-0 z-0 pointer-events-none">
         <DarkVeil />
