@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Trophy } from "lucide-react";
 
 // Fetch CSV from Google Sheet and parse it
 const fetchSheetData = async () => {
@@ -31,7 +30,9 @@ const fetchSheetData = async () => {
 };
 
 const getAbbreviation = (username) => {
-  return username.slice(0, 3).toUpperCase();
+  // Filter to only keep letters and numbers, then take first 3 characters
+  const filtered = username.replace(/[^a-zA-Z0-9]/g, "");
+  return filtered.slice(0, 3).toUpperCase();
 };
 
 const RefreshIcon = () => (
@@ -106,13 +107,9 @@ export function LeaderboardSkeleton() {
                   title={`${row.username} - ${row.score} points`}
                 >
                   <div className="font-medium p-0.5 w-1/2 text-gray-300 flex items-center gap-1">
-                    {isTopThree ? (
-                      <Trophy className="w-2 h-2 mr-1" />
-                    ) : (
-                      <span className="text-[8px] font-bold min-w-[12px]">
-                        {position}.
-                      </span>
-                    )}
+                    <span className="text-[8px] font-bold min-w-[12px]">
+                      {position}.
+                    </span>
 
                     {isTopThree ? (
                       <motion.span
