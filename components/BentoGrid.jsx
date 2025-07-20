@@ -142,8 +142,15 @@ const items = [
   },
   {
     title: "Leaderboard",
-    description:
-      "From fierce battles to epic moments, these are the players rising through the placements.",
+    description: (
+      <>
+        From fierce battles to epic moments, these are the players rising
+        through the{" "}
+        <Link href="/leaderboard" className="text-blue-500 hover:underline">
+          placements.
+        </Link>
+      </>
+    ),
     header: <LeaderboardSkeleton />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
