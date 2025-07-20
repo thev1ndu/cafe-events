@@ -11,6 +11,7 @@ import {
 } from "@tabler/icons-react";
 import { RegisterEventCard } from "./Register";
 import { LeaderboardSkeleton } from "./Leaderboard";
+import Link from "next/link";
 
 export function BentoGridComponent() {
   return (
