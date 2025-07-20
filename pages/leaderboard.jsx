@@ -221,36 +221,43 @@ export default function LeaderboardPage() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-black to-slate-900 text-white">
-      <main className="flex-1 w-full flex flex-col items-center px-4 py-12">
-        <div className="max-w-4xl w-full">
-          {topThree.length > 0 ? (
-            <>
-              <TopThreeRow players={topThree} />
-              <div className="space-y-2">
-                {others.map((player, i) => (
-                  <PlayerRow key={player.username} player={player} index={i} />
-                ))}
+    <>
+      <title>Leaderboard | The UwU Café</title>
+      <div className="min-h-screen flex flex-col bg-gradient-to-br from-black to-slate-900 text-white">
+        <main className="flex-1 w-full flex flex-col items-center px-4 py-12">
+          <div className="max-w-4xl w-full">
+            {topThree.length > 0 ? (
+              <>
+                <TopThreeRow players={topThree} />
+                <div className="space-y-2">
+                  {others.map((player, i) => (
+                    <PlayerRow
+                      key={player.username}
+                      player={player}
+                      index={i}
+                    />
+                  ))}
+                </div>
+              </>
+            ) : (
+              <div className="text-center text-xs text-gray-500 m-32">
+                <AnimatedShinyText>
+                  Hang tight while we sync the scores and sort out the legends.
+                  <br /> <br />
+                  Every second counts — the top players are just pixels away
+                  from greatness.
+                  <br />
+                  GG incoming!
+                  <br />
+                  <br />
+                  stay UwU!
+                </AnimatedShinyText>
               </div>
-            </>
-          ) : (
-            <div className="text-center text-xs text-gray-500 m-32">
-              <AnimatedShinyText>
-                Hang tight while we sync the scores and sort out the legends.
-                <br /> <br />
-                Every second counts — the top players are just pixels away from
-                greatness.
-                <br />
-                GG incoming!
-                <br />
-                <br />
-                stay UwU!
-              </AnimatedShinyText>
-            </div>
-          )}
-        </div>
-      </main>
-      <Footer />
-    </div>
+            )}
+          </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
