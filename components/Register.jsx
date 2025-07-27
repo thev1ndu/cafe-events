@@ -19,12 +19,11 @@ export const RegisterEventCard = ({ className }) => {
         </div>
         <p className="text-xs text-neutral-400">
           Don’t miss your chance to be part of something epic. Reserve your spot
-          now and connect with gamers, streamers, and industry legends at our
+          now and connect with gamers and streamers at our
           exclusive gaming event.
         </p>
         <p className="text-xs text-neutral-400 mt-1">
-          From intense tournaments to early looks at upcoming titles, it’s
-          everything a true gamer needs. Power up and join the action slots are
+          Power up and join the action slots are
           limited!
         </p>
       </div>
