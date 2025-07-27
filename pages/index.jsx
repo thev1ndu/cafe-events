@@ -23,7 +23,7 @@ export default function Home() {
       <div className="fixed inset-0 w-screen h-screen m-0 p-0 z-0 pointer-events-none">
         <DarkVeil />
       </div>
-      <div className="relative z-10 m-6 min-h-screen flex flex-col justify-between">
+      <div className="relative z-10 m-5 min-h-screen flex flex-col justify-between">
         <main className="flex-1 flex flex-col justify-center items-center mt-12 mb-16 sm:mt-10 sm:mb-16 md:mt-12 md:mb-16">
           <BentoGridComponent />
         </main>
