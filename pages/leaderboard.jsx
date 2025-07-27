@@ -158,7 +158,14 @@ const PlayerRow = ({ player, index, isDark }) => {
           {/* Player info */}
           <div className="flex items-center space-x-3">
             <span className={`font-medium ${textColor}`}>
+            <Link
+              href={`https://socialclub.rockstargames.com/members/${player.username}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`font-medium no-underline hover:text-blue-500 transition-colors duration-200 ${textColor}`}
+            >
               {player.username}
+            </Link>
             </span>
             <motion.div
               initial={{ scale: 0 }}
