@@ -28,7 +28,7 @@ export const RegisterEventCard = ({ className }) => {
         </p>
       </div>
 
-      <div className="pt-4">
+      <div className="pt-4 mt-2">
         <a href="https://forms.gle/TKABVJ1DwGGHnP8j7" target="_blank">
           <ShinyButton className="w-full">REGISTER</ShinyButton>
         </a>
