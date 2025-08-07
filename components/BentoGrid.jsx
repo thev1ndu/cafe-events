@@ -117,7 +117,7 @@ const items = [
     description: "The ultimate commencement of Grand Theft Furious series.",
     header: (
       <div className="relative w-full h-80 rounded-xl overflow-hidden bg-black">
-        <Image
+        <img
           src="https://i.postimg.cc/d0gCnYSH/IMG-4153.jpg"
           alt="Event Banner"
           fill
