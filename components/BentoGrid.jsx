@@ -118,7 +118,7 @@ const items = [
     header: (
       <div className="relative w-full h-80 rounded-xl overflow-hidden bg-black">
         <Image
-          src="/event-banner.jpg"
+          src="https://i.postimg.cc/d0gCnYSH/IMG-4153.jpg"
           alt="Event Banner"
           fill
           className="object-cover object-[center_80%] rounded-xl"
