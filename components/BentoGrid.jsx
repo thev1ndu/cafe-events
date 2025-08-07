@@ -57,7 +57,7 @@ const Organizers = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4  border border-neutral-200 flex flex-col items-center justify-center"
       >
         <img
-          src="https://i.postimg.cc/d0gCnYSH/IMG-4153.jpg"
+          src="https://i.postimg.cc/PPscLNyy/6dc6726cc05201dc02b7a3432e3f9df1.png"
           alt="avatar"
           height="100"
           width="100"
