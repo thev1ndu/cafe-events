@@ -120,9 +120,7 @@ const items = [
         <img
           src="https://i.postimg.cc/d0gCnYSH/IMG-4153.jpg"
           alt="Event Banner"
-          fill
-          className="object-cover object-[center_80%] rounded-xl"
-          priority
+          className="w-full h-full object-cover object-[center_80%] rounded-xl"
         />
       </div>
     ),
